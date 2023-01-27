@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Startseite</a>
+            <a href="offers.html">Angebote</a>
+            <a href="aboutus.html">Über uns</a>
+            <a href="open.html">Öffnungszeiten</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="agb.html">AGB's</a>
+            <a href="impressum.html">Impressum</a>
+        </div>
+    </div>
+    <div style="text-align: center;margin-top: 15px;margin-bottom:15px">
+        <span style="font-size: 45px; color: white; cursor: pointer;" onclick="openNav()">&#9776; </span>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <div class="about-section">
+        <h1>Unser aktuelles Angebot</h1>
+    </div>
+    <div class="offercontainer">
+        <img src="https://i.imgur.com/VDedqYi.jpeg" alt="Auto1" class="image">
+        <div class="imgoverlay">
+            Derzeit leider nicht verfügbar.
+        </div>
+    </div>
+    <div class="offercontainer">
+        <img src="https://i.imgur.com/OMflRDw.jpeg" alt="Auto1" class="image">
+        <div class="imgoverlay">
+            Derzeit leider nicht verfügbar.
+        </div>
+    </div>
+    <div class="offercontainer">
+        <img src="https://i.imgur.com/WKgS1wD.jpeg" alt="Auto1" class="image">
+        <div class="imgoverlay">
+            Derzeit leider nicht verfügbar.
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Startseite</a>
+            <a href="offers.html">Angebote</a>
+            <a href="aboutus.html">Über uns</a>
+            <a href="open.html">Öffnungszeiten</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="agb.html">AGB's</a>
+            <a href="impressum.html">Impressum</a>
+        </div>
+    </div>
+    <div style="text-align: center;margin-top: 15px;margin-bottom:15px">
+        <span style="font-size: 45px; color: white; cursor: pointer;" onclick="openNav()">&#9776; </span>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <div class="about-section">
+        <h1>Unsere Öffnungszeiten</h1>
+    </div>
+    <table
+        style="border:border; border-radius:2px;border-color:aliceblue;width:100%; float:center; color:white; margin-top: 25px;">
+        <tr align="center">
+            <th>Montag - Mittwoch</th>
+            <th>Donnerstag</th>
+            <th>Freitag</th>
+            <th>Samstag</th>
+        </tr>
+        <tr align="center">
+            <td>9:00 Uhr - 12:00 Uhr</td>
+            <td>10:00 Uhr - 13:00 Uhr</td>
+            <td>8:00 Uhr - 12:00 Uhr</td>
+            <td>8:00 Uhr - 12:00 Uhr</td>
+        </tr>
+        <tr align="center">
+            <td>13:00 Uhr - 18:00 Uhr</td>
+            <td>14:00 Uhr - 19:00 Uhr</td>
+            <td>13:00 Uhr - 16:00 Uhr</td>
+            <td>13:00 Uhr - 15:00 Uhr</td>
+        </tr>
+    </table>
+</body>
+
+</html>
